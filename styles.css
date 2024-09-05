@@ -1,0 +1,400 @@
+body, html{
+  background-color: #11499c;
+}
+.maincontainer{
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 1fr;
+  width: 100%;
+  height: 100%;
+  margin-top: -1px;
+  margin-bottom: -1px;
+
+}
+.firstpagecontainer{
+  width: 100%;
+  position: relative;
+  margin-top: -1px;
+  margin-bottom: -1px;
+}
+.r{
+  margin-right: 0px !important;
+}
+
+.textcontainerfirstpage{
+  position: absolute;
+  display: flex;
+  height: inherit;
+  width: inherit;
+  justify-content: end;
+  align-items: center;
+  text-align: center;
+  left: -3%;
+}
+.firstheder{
+  font-size: 2rem;
+}
+.notebooksimg{
+  position: absolute;
+  left: -30%;
+  top: -1%;
+  width: 90%;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation:forwards;
+  animation-name: run;
+  animation-duration: 2s;
+}
+.pagebackgr{
+  width: 100%;
+}
+.firstheder{
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  z-index: 999;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+@keyframes run {
+  0% {
+    left: -10%;
+    opacity: 0;
+  }
+  100% {   
+    opacity: 1;
+    left: 2%; 
+  }
+}
+.carousel{
+  z-index: 999;
+}
+.d-block{
+  scale: 90% !important;
+}
+.page2_container{
+  position: absolute;
+  margin-top: -1px;
+  margin-bottom: -1px;
+}
+.page2_bg{
+  width: 100%;
+}
+.productsheder{
+  text-align: center;
+  background-image: url(bgimgblue.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0;
+  color: white;
+
+}
+.features{
+  place-items: center;
+  background-image: url(bgimgblue.png);
+  height: 70% !important;
+  padding-top: 5rem !important ;
+  z-index: 999;
+}
+.iconsize{
+  width: 100px;
+} 
+
+ .additionalRowSettings{
+  background-color: rgb(255, 255, 255) !important;
+  border-radius: 20px;
+  padding: 20px;
+  width: 80% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+ } 
+
+.servicesdiv{
+  margin-top: auto;
+  text-align: center;
+  margin-bottom: auto;
+  height: 30%;
+  display: grid;
+  place-content: center;
+  background-image: url(bgimgblue.png);
+  color: #ffffff;
+  margin-top: -1px;
+  margin-bottom: -1px;
+}
+.additionalinfodiv{
+  margin-top: auto;
+  text-align: center;
+  margin-bottom: auto;
+  height: 30%;
+  display: grid;
+  place-content: center;
+  background-image: url(bgimgblue.png);
+  color: #ffffff;
+}
+.container-fluid{
+  padding: 0% !important;
+  padding-left: 0% !important;
+}
+
+.ha{
+  padding-top: 50px;
+}
+.aboutdiv{
+  margin-top: auto;
+  text-align: center;
+  margin-bottom: auto;
+  height: 30%;
+  display: grid;
+  position: relative;
+  place-content: center;
+  background-image: url(bgimgblue.png);
+}
+.footerlogo{
+ width: 30%;
+ padding-left: 30px;
+}
+.servicesdiv2{
+  position: sticky;
+  flex-direction: column;
+
+}
+.ex1{
+  z-index: 9999;
+  position: absolute;
+  width: 30%;
+  left: 10%;
+  bottom: 0px;
+
+}
+.ex2{
+  z-index: 9999;
+  position: absolute;
+  left: 60%;
+  width: 30%;
+  bottom: 0px;
+}
+.btn{
+  width: 100px;
+}
+.pencilsimg{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  scale: 95%;
+  top: 5%;
+}
+.formdiv{
+  display: flex;
+  width: 200px;
+}
+.containermap{
+  margin-top: 2rem;
+  z-index: 999;
+  margin-bottom: 50px !important;
+}
+.contactdiv{
+  margin-top: auto;
+  text-align: center;
+  margin-bottom: auto;
+  height: 30%;
+  display: grid;
+  position: relative;
+  place-content: center;
+  background-size: cover;
+  background-image: url(movingimg.png);
+  background-position: center;
+  color: #ffffff;
+  background-attachment: fixed;
+  margin-top: -1px;
+  margin-bottom: -1px;
+
+}
+#googleMap {
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.flex-item-left {
+  flex: 50%;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.flex-item-right {
+  flex: 50%;
+}
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  padding: 10px;
+
+}
+@media (max-width: 850px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+  #googleMap {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+  }
+}
+
+.form-row{
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.navbar{
+  z-index: 9999;
+  background-color: rgb(255, 255, 255);
+}
+.para7{
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: xx-large;
+}
+.hederpro{
+  font-size: 50px;
+  font-weight: 800;
+
+}
+
+.he{
+  padding-bottom: 50px ;
+  top: 0px;
+  margin-top: 0%;
+}
+.footerinfo{
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+@media (max-width: 400px){
+  .firstheder{
+   top: 30%;
+   right: 0%;
+    font-size: 1rem;
+  }
+  .exidiv{
+    display: none;
+  }
+  .exidiv2{
+    display: none;
+  }
+  .para7{
+    font-size: medium;
+  }
+  .footerinfo{
+    font-size: x-small;
+  }
+
+  .hederpro{
+    font-size: 30px;
+  }
+  .formdiv{
+    flex-direction: column;
+  }
+}
+@media(min-width: 400px) and (max-width: 840px){
+  .firstheder{
+   top: 30%;
+   right: 0%;
+    font-size: 1.4rem;
+  }
+  .para7{
+    font-size: medium;
+  }
+  .formdiv{
+    flex-direction: column;
+  }
+.footerinfo{
+  font-size: small;
+}
+.hederpro{
+  font-size: 40px;
+}
+.contactdiv{
+  background-image: url(bgimgblue.png);
+}
+}
+@media(min-width: 600px) and (max-width: 850px){
+  .firstheder{
+   top: 30%;
+   right: 0%;
+    font-size: 2.3rem;
+  }
+  .para7{
+    font-size: large;
+  }
+  .footerinfo{
+    font-size: small;
+  }
+  .formdiv{
+    flex-direction: column;
+  }
+  .contactdiv{
+    background-image: url(bgimgblue.png);
+  }
+}
+
+@media(min-width: 850px) and (max-width: 1000px){
+   .firstheder{
+    top: 30%;
+    right: 0%;
+     font-size: 3rem;
+   }
+   .para7{
+    font-size: x-large;
+  }
+  .footerinfo{
+    font-size: medium;
+  }
+  .formdiv{
+    display: flex;
+    background-color: aqua;
+    width: 1200px;
+    height: 600px;
+  }
+  .TXTA{
+    height: 300px !important;
+  }
+   
+}
+@media(min-width: 1000px) and (max-width: 2200px){
+  .firstheder{
+   top: 30%;
+   right: 0%;
+    font-size: 4rem;
+  }
+  .para7{
+    font-size: xx-large;
+  }
+  .footerinfo{
+    font-size: large;
+  }
+  .formdiv{
+    display: flex;
+    background-color: aqua;
+    height: 600px;
+  }
+  .TXTA{
+    height: 380px !important;
+  }
+
+}
